@@ -61,3 +61,24 @@
         body {
   background-image: url("image0.jpeg");
 }
+div.header div.container ul.menu
+{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+div.header div.container ul.menu li
+{
+  list-style: none;
+}
+div.header div.container ul.menu li a
+{
+  color: blanchedalmond;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+  transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+div.header div.container ul.menu li a:active,
+div.header div.container ul.menu li a:hover
+{
