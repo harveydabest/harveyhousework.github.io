@@ -2,6 +2,7 @@ const routes = [
     { path: "/", file: "index.html" },
     { path: "/gettingstarted", file: "getstarted.html" },
     { path: "/whatwedo", file: "whatwedo.html" },
+    { path: "/whatyoucanexpect", file: "whatyoucanexpect.html" },
   ];
 
   // Define routes using the routes array
