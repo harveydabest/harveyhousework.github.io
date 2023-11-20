@@ -1,6 +1,13 @@
 <hmtl>
-  <head>
-  <script>src="navbarfetch.js"></script>
+  <head>  
+<script>
+    fetch('navbar.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('content').innerHTML = data;
+        })
+        .catch(error => console.error(error));
+</script>
     <title>What We Do - Harvey House Work</title>  
     <h1><center>What We Do</center></h1>
     <link rel="stylesheet" type="text/css" href="style.css" />
